@@ -1,0 +1,47 @@
+MARKETCOMPASS — API KEY SETUP
+
+Configure these three personal credentials for the fullest supported coverage.
+Each enables its provider's feeds. All three are NOT required simply to open
+or use MarketCompass. Provider coverage, rate limits and plan access apply.
+MarketCompass Pro does not include or upgrade any data-provider subscription.
+
+1. TIINGO API TOKEN
+Create or sign in to a Tiingo account: https://www.tiingo.com/
+Find/copy your token using Tiingo's instructions:
+https://www.tiingo.com/blog/how-to-find-your-tiingo-api-token/
+Used for daily price/NAV and historical-performance coverage for supported
+stocks, ETFs and mutual funds.
+
+2. FINNHUB API TOKEN
+Register: https://finnhub.io/register
+Sign in and copy your API key: https://finnhub.io/dashboard
+Used for stock/ETF quote coverage. Earnings and research endpoints depend on
+the permissions included in your Finnhub plan.
+
+3. COINGECKO DEMO API KEY
+Create/sign in to your CoinGecko account. Follow this official guide to
+register for Demo API access and generate a key in the Developer's Dashboard:
+https://docs.coingecko.com/docs/setting-up-your-api-key
+Used for cryptocurrency prices and supported history. Use a DEMO key. The
+current extension's Demo endpoint does not accept a paid CoinGecko Pro key
+as a substitute. Follow the provider's current plan terms and usage limits.
+
+SAVE AND REFRESH
+Open Dashboard > Settings & Sources > Source APIs.
+Paste the credentials into the corresponding Tiingo API token, Finnhub API
+token, and CoinGecko Demo API key fields.
+Click Save Source APIs, then Refresh All. Let the queued checks finish.
+Review diagnostics and the observation dates for the assets you follow.
+Saving a key does not guarantee coverage for every asset or historical period.
+
+Keys remain in local extension storage for the browser profile and are sent
+to the relevant provider for authentication. Do not email or publicly share
+keys. The MarketCompass Pro license key is separate from these API credentials.
+
+FX reference rates, Treasury yields and several other public-data feeds do
+not require these keys. Without one, its specific feeds can be unavailable
+even when another source supplies some prices. Start with appropriate free
+provider access where offered; never assume a paid upgrade is required or
+that a provider's free plan includes every feature.
+
+Support: marketcompassapp@gmail.com (never include your keys).
