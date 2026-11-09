@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://marketcompass-app.github.io/sitemap.xml
